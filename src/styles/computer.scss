@@ -1,0 +1,128 @@
+.computer .container {
+  width: 1110px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+
+  .headings {
+    display: flex;
+    z-index: 1;
+    h1 {
+      font-size: 100px;
+      font-family: "Open Sans";
+      color: rgb(0, 102, 153);
+      font-weight: bolder;
+      font-variant: small-caps;
+      line-height: 0.458;
+      letter-spacing: 0px;
+      transform-origin: 0deg;
+      transform: rotate(270deg);
+      margin-left: -125px;
+
+      span {
+        font-size: 41px;
+        font-family: "Open Sans";
+        color: rgb(69, 42, 49);
+        font-weight: bolder;
+        text-transform: uppercase;
+        line-height: 1.1;
+        letter-spacing: 3px;
+        display: block;
+        transform-origin: 0deg;
+        transform: rotate(360deg);
+        margin-bottom: 13px;
+      }
+    }
+  }
+  .text-section {
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    .computer {
+      z-index: 0;
+      position: relative;
+      margin-left: 43px;
+
+      img {
+        position: absolute;
+        margin-left: -147px;
+        margin-top: 90px;
+        z-index: -1;
+      }
+      .background {
+        z-index: 2;
+        width: 842px;
+        height: 555px;
+        background-color: #7799bb;
+        margin-top: 122px;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          h2 {
+            font-size: 28px;
+            width: 340px;
+            height: 55px;
+            text-align: center;
+            font-family: "Open Sans";
+            font-weight: bold;
+            line-height: 1.214;
+          }
+          h3 {
+            font-size: 18px;
+            width: 558.77px;
+            margin-top: 45px;
+            font-family: "Open Sans";
+            color: rgb(255, 255, 255);
+            line-height: 1.389;
+            text-align: center;
+            font-weight: lighter;
+          }
+          h4 {
+            font-size: 18px;
+            width: 559px;
+            font-family: "Open Sans";
+            color: rgb(255, 255, 255);
+            line-height: 1.389;
+            text-align: center;
+            margin-top: 31px;
+          }
+        }
+        .signature {
+          z-index: 3;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            margin: 0;
+            margin-top: 32px;
+            position: relative;
+          }
+        }
+        .services {
+          width: 180px;
+          height: 40px;
+          border: transparent;
+          background-color: #f26522;
+          cursor: pointer;
+          margin-top: 25px;
+          h2 {
+            font-size: 14px;
+            font-family: "Open Sans";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-transform: uppercase;
+            
+          }
+        }
+      }
+    }
+  }
+}

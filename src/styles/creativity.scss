@@ -1,0 +1,60 @@
+.creativity .container {
+  width: 1110px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .title {
+      h2 {
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 30px;
+        color: rgb(65, 64, 66);
+        font-weight: bolder;
+        font-variant: small-caps;
+      }
+      h1 {
+        text-align: center;
+        margin-top: -20px;
+        font-family: "Open Sans";
+        font-size: 72px;
+        color: #f26522;
+        font-weight: bold;
+        font-variant: small-caps;
+        letter-spacing: -1px;
+      }
+    }
+    .body-text {
+        margin-top: 33px;
+      font-size: 14px;
+      font-family: "Open Sans";
+      color: rgb(0, 0, 0);
+      line-height: 1.786;
+      text-align: center;
+
+      span {
+        display: flex;
+        margin-top: 33px;
+      }
+    }
+    .read-more {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      margin-top: 33px;
+      h2 {
+        font-size: 17px;
+        font-family: "Open Sans";
+        color: rgb(65, 64, 66);
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,80 @@
+.our-history .container{
+    width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+    .left-row{
+        width: 555px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .title{
+            margin-top: -60px;
+            h2{
+            font-family: "Open Sans";
+            font-size: 30px;
+            color: rgb(65, 64, 66);
+            font-weight: bolder;
+            font-variant: small-caps;
+        }
+        h1{
+            margin-top: -20px;
+            font-family: "Open Sans";
+            font-size: 72px;
+            color: #262d40;
+            font-weight: bold;
+            font-variant: small-caps;
+            letter-spacing: -1px;
+
+            span{
+                color: #f26522;
+            }
+        }
+    }
+    .body-text{
+        p{
+            font-size: 14px;
+            font-family: "Open Sans";
+            width: 400px;
+            margin-top: 33px;
+            color: rgb(13, 17, 27);
+            line-height: 1.786;
+            text-align: left;
+        } 
+    }
+    .read-more{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+
+    h2 {
+        font-size: 17px;
+        font-family: "Open Sans";
+        color: rgb(65, 64, 66);
+        font-weight: bolder;
+        text-transform: uppercase;
+        line-height: 1.25;
+        position: absolute;
+        margin-left: -1px;
+        margin-top: 25px;
+      
+      }
+    }
+    }
+
+    .right-row{
+        width: 555px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+}
